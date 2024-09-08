@@ -14,7 +14,7 @@ body{
 #header{
     width:100%;
     height:100vh;
-    background-image:url(images/plant\ 2.JPG);
+    background-image:url(https://github.com/marebae/portfolio.github.io/blob/main/images/plant%202.JPG?raw=true);
     background-size:cover;
     background-position:center;
 }
@@ -248,7 +248,7 @@ nav .fas{
 
 @media only screen and(max-with:600px){
     #header{
-        background-image:url(images/plant\ 2.JPG);
+        background-image:url(https://github.com/marebae/portfolio.github.io/blob/main/images/plant%202.JPG?raw=true);
     }
     .header-text{
         margin-top: 100%;
