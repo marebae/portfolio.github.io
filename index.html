@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE-edge">
+    <meta name="viewport" content="width-device-width", initial-scale="1.0">
+    <title>Mary's Secret Lair</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f258360731.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/mlogo.png" class="logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>IT Student</p>
+            <h1>Hi, my name is Mary Bauta.</h1>
+        </div>
+    </div> 
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/me3.JPG">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, my name is Mary Bauta. I'm from Miami, Florida. I'm a very passionate and driven person. Ever since I was little, I dreamed big. I never wanted to pick one skill, I wanted to be profficent in a variety of skills.
+             I am currently pursuing a bachelor's in Information Technology at the University of Central Florida. With my degree, I aspire to gain experience in front-end development.
+             My dream career is to be a business owner. I want to be someone who makes a difference in the world. I want to be an inspiration for others. With a dream so big, I am aware 
+             of what I must do to get there. That's why web design is the stepping stone for me. It's the first step I can take in my career pathway that will launch me to where I desire to go.</p>
+            
+            
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Web Development</span><br>Designing Web interfaces</li>
+                    <li><span>Team Collaboration</span><br>Communication/Organized/Adaptable</li>
+                    <li><span>Social Media Management</span><br>Video/Photo Production</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Sep 2021-Feb 2022</span><br>Volunteer</li>
+                    <li><span>Jul 2017-Aug 2017</span><br>Volunteer</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Expected in 2026</span><br>BS in Information Technology from the University of Central Florida</li>
+                </ul>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I am very new when it comes to web design but I desire to learn as much as I can.
+                I believe I could be an asset to your team with providing my web design skills and creative ideas.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>Management</h2>
+                <p>I have recieved my Associates in Business Administration. I have not worked in this 
+                industry, however, I can say that I can provide communication, dedication, and hardwork. 
+                I will be organized and accountable.</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-instagram"></i>
+                <h2>Social Media</h2>
+                <p>Video Production has always been a hobby for me. I have been editing youtube videos for about 5 years. Until 
+                recently I have been more passionate about pursuing a job in social media. I am well-versed in a variety of platforms. </p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>marybauta5@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>(786)-578-5624</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/marybauta/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mary-bauta-a76753292/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@travelwithmaryyy"><i class="fa-brands fa-square-youtube"></i></a>
+                </div>
+                <form method="get" action="images/RESUME.pdf">
+                    <button class = "btn btn2" type="submit">Download Resume</button>
+                 </form>
+               <!-- <button class ="btn btn2">
+                    <a href="images/RESUME.pdf" download class="btn btn2">Download Resume</a>
+                </button>-->
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email"placeholder="Your Email" required>
+                    <textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©️ Mary. Made with <i class="fa-solid fa-heart"></i> by Mary</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementbyId("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwbN0QPhkCNZd_TmqvWfce_CsitCxhDNdrAMoBsvnKKSSzxhC-JpvalXQ9UCTbona4i/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
