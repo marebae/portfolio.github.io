@@ -200,6 +200,7 @@ width: 50%;
 form .btn.btn2{
     display:inline-block;
     background:#fff;
+    color: #000000;
 }
 .btn.btn2{
     display:inline-block;
@@ -208,6 +209,7 @@ form .btn.btn2{
     font-size:12px;
     margin-top:20px;
     cursor:pointer;
+    color: #000000; 
 }
 .contact-right form{
     width:100%;
@@ -302,9 +304,7 @@ nav .fas{
     .contact-left, .contact-right{
         flex-basis:100%;
     }
-    form .btn.btn2{
-        color: #000000;
-    }
+
     .copyright{
         font-size:12px;
 
