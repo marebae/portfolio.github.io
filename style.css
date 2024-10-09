@@ -252,74 +252,79 @@ nav .fas{
     display:none;
 }
 
-@media only screen and(max-with:600px){
-    #header{
-        background-image:url(https://github.com/marebae/portfolio.github.io/blob/main/images/plant%202.JPG?raw=true);
+@media only screen and (max-width: 600px) {
+    #header {
+        background-image: url(https://github.com/marebae/portfolio.github.io/blob/main/images/plant%202.JPG?raw=true);
     }
-    .header-text{
+    .header-text {
         margin-top: 100%;
-        font-size:20px;
-    }
-    .header-text h1{
-        font-size:40px;
-    }
-    nav ul li a{
         font-size: 20px;
     }
-    nav .fas{
-    display: block;
-    font-size:35px;
+    .header-text h1 {
+        font-size: 40px;
     }
-    nav ul{
-    background:#0a1f17;
-    position: fixed;
-    top:0;
-    right:-200px;
-    width:200px;
-    height:100vh;
-    padding-top:50px;
-    z-index:2;
-    transition: right 0.5s;
+    nav ul li a {
+        font-size: 20px;
     }
-    nav ul li{
+    nav .fas {
         display: block;
-        margin:25px;
+        font-size: 35px;
     }
-    nav ul .fas{
-        position: absolute;
-        top:25px;
-        left:25px;
-        cursor: pointer;
-
+    nav ul {
+        background: #0a1f17;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
     }
-    .sub-title{
-        font-size:60px;
+    nav ul li {
+        display: block;
+        margin: 25px;
     }
-    .about-col-1, .about-col-2{
-        flex-basis:100%;
+    .sub-title {
+        font-size: 40px; /* Adjusted for smaller screens */
     }
-    .about-col-1{
-        margin-bottom:30px;
+    .about-col-1, .about-col-2 {
+        flex-basis: 100%;
     }
-    .about-col-2{
-        font-size:20px;
+    .about-col-1 {
+        margin-bottom: 30px;
     }
-    .tab-links{
-        font-size:30px;
-        margin-right:20px;
+    .about-col-2 {
+        font-size: 20px;
     }
-    .contact-left, .contact-right{
-        flex-basis:100%;
+    .tab-links {
+        font-size: 30px;
+        margin-right: 20px;
+    }
+    .contact-left, .contact-right {
+        flex-basis: 100%;
     }
     .btn.btn2 {
-        padding: 12px 50px; 
-        font-size: 20px;     
-        color: #000;
+        padding: 12px 50px;
+        font-size: 20px;
     }
-    .copyright{
-        font-size:12px;
-
+    .copyright {
+        font-size: 12px;
     }
-
-
+    
+    /* New styles for services boxes */
+    .services-list {
+        grid-template-columns: repeat(1, 1fr); /* Stack boxes */
+        grid-gap: 20px; /* Adjust spacing */
+    }
+    .services-list div {
+        padding: 20px; /* Adjust padding */
+        font-size: 18px; /* Font size for services */
+    }
+    .services-list div h2 {
+        font-size: 24px; /* Heading size for services */
+    }
+    .services-list div p {
+        font-size: 16px; /* Paragraph size for services */
+    }
 }
