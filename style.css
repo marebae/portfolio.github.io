@@ -200,16 +200,19 @@ width: 50%;
 form .btn.btn2{
     display:inline-block;
     background:#fff;
-    color: #000000;
+}
+
 }
 .btn.btn2{
     display:inline-block;
     background:#fff;
+    color: #000000;
     padding:14px 60px;
     font-size:12px;
     margin-top:20px;
-    cursor:pointer;
-    color: #000000; 
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
 }
 .contact-right form{
     width:100%;
@@ -304,7 +307,10 @@ nav .fas{
     .contact-left, .contact-right{
         flex-basis:100%;
     }
-
+    .btn.btn2 {
+        padding: 12px 50px; /* Adjust padding for smaller screens */
+        font-size: 14px;     /* Adjust font size for readability */
+    }
     .copyright{
         font-size:12px;
 
