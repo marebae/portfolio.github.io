@@ -255,9 +255,10 @@ nav .fas{
 @media only screen and (max-width: 600px) {
     #header {
         background-image: url(https://github.com/marebae/portfolio.github.io/blob/main/images/plant%202.JPG?raw=true);
+        height: 70vh;
     }
     .header-text {
-        margin-top: 100%;
+        margin-top: 30%;
         font-size: 20px;
     }
     .header-text h1 {
