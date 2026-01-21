@@ -68,7 +68,7 @@ nav ul li a:hover::after{
 
 #about{
     padding: 80px 0;
-    color:#d1e3d3;
+    color:#deb1d4;
 }
 .row{
     display:flex;
@@ -272,7 +272,7 @@ nav .fas{
         font-size: 35px;
     }
     nav ul {
-        background: #0a1f17;
+        background: #0c052b;
         position: fixed;
         top: 0;
         right: -200px;
