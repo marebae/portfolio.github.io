@@ -106,7 +106,7 @@ nav ul li a:hover::after{
     content: '';
     width:0;
     height:3px;
-    background:#141c13;
+    background:#270629;
     position: absolute;
     left:0;
     bottom:-8px;
@@ -120,7 +120,7 @@ width: 50%;
     margin:10px 0;
 }
 .tab-contents ul li span{
-    color:#000;
+    color:#faf7f7;
     font-size:15px;
 }
 .tab-contents{
@@ -140,7 +140,7 @@ width: 50%;
     margin-top:50px;
 }
 .services-list div{
-    background: #876887;
+    background: #a882a8;
     padding:40px;
     font-size:16px;
     font-weight: 300;
@@ -164,7 +164,7 @@ width: 50%;
     display:inline-block;
 }
 .services-list div:hover{
-    background: #0a1f17;
+    background: #2e0336;
     transform:translateY(-10px);
 }
 
@@ -178,7 +178,7 @@ width: 50%;
     margin-top:30px;
 }
 .contact-left p i{
-    color:#262626;
+    color:#9e6595;
     margin-right:15px;
     font-size:25px;
 }
@@ -189,7 +189,7 @@ width: 50%;
     text-decoration:none;
     font-size:30px;
     margin-right:15px;
-    color:#deabd8;
+    color:#150f38;
     display:inline-block;
     transition:transform 0.5s
 }
@@ -221,7 +221,7 @@ form input,form textarea{
     width:100%;
     border:0;
     outline:none;
-    background:#262626;
+    background:#150f38;
     padding:15px;
     margin:15px 0;
     color:#fff;
@@ -240,7 +240,7 @@ form .btn2{
     width:100%;
     text-align:center;
     padding:25px 0;
-    background:#876887;
+    background:#f0e1f0;
     font-weight:300;
     margin-top:20px;
 
